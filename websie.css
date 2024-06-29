@@ -10,6 +10,7 @@ h2{
     margin-left:2rem;
     font-weight: 500;
     font-style:oblique;
+    font-family: "Playwrite FR Trad", cursive;
 }
 li{
     margin-left:5rem;
@@ -36,6 +37,13 @@ li:hover{
 }
 h1,p{
     text-decoration: underline;
+    
+
+
+}
+p{
+    font-family: "Playwrite US Trad", cursive;
+    font-weight: 500;
 }
 .space{
     margin-top: 10rem;
@@ -57,9 +65,11 @@ background-color:white!important;
     border-radius: 80%;
     border-top: 10px solid black;
 }
-h4{
+h4,h3{
     text-align: center;
-    margin-top: 1rem;
+    margin-top:1rem;
+    font-family: "Playwrite NZ", cursive;
+    text-decoration:underline;
 }
 .respon{
     display: flex !important;
@@ -88,4 +98,9 @@ h4{
     background-size:cover;
     margin-top: 5rem;
     width: 100%;
+}
+#last{
+    list-style:none;
+    font-family: "Playwrite NL", cursive;
+
 }
